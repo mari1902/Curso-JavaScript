@@ -7,25 +7,6 @@
     <title>Sistema de Nacionalidades</title>
 </head>
 <body>
-    <h1>Sistema de Nacionalidades</h1>
-    <p>Onde você nasceu?</p>
-    <input type="text" name="txtpaís" id="txtpaís"> 
-    <input type="button" value="Verificar" onclick="checar">
-    <div id="nacionalidade">
-
-    </div>
-
-    <script>
-        function checar() {
-            var txtnacionalidade = window.document.querySelector('input#txtpaís')
-            var res = window.document.querySelector('div#nacionalidade')
-            var nacionalidade = String(txtnacionalidade)
-            if (nacionalidade == 'Brasil') {
-                res.innerHTML = '<p>Você é <strong>Brasileiro</strong>!</p>'
-            } else {
-                res.innerHTML = '<p>Você é <strong>Estrangeiro</strong>!</p>'
-            }
-        }
-    </script>
+    
 </body>
 </html>
