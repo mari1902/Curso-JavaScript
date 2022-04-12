@@ -1,19 +1,25 @@
 let valores = [8, 1, 7, 4, 2, 9]
 
-// console.log(valores)
+//A forma mais comprida de mostrar os elementos do array sem colchete e sem virgula
+// console.log(num[0])
+// console.log(num[1])
+// console.log(num[2])
+// console.log(num[3])
+// console.log(num[4])
 
-/*console.log(valores[0])
-console.log(valores[1])
-console.log(valores[2])
-console.log(valores[3])
-console.log(valores[4])
-console.log(valores[5])
+/* 
+for(let pos=0; pos < valores.length; pos++) {
+     console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+}
+*/
+/* como mostrar os elementos do array sem o colchete e vírgulas utilizando o for */
 
-for(let pos = 0; pos < valores.length; pos++) {
+/* Outra forma de exibir oa elementos do array sem colchet e virgula é utilizando o for in */
+
+/*for(let pos in valores) {
     console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
 }
 */
 
-for(let pos in valores) {
-    console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
-}
+//coloca dentro do for - o indice criado (ex: let pos) e o nome da variavel composta (ex: valores)
+//lê-se: para cada posição dentro de num eu vou mostrar o num[pos]

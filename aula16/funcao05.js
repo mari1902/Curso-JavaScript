@@ -1,4 +1,4 @@
-//RECURSIVIDADE
+//RECURSIVIDADE = quando ela chama ela mesma
 
 function fatorial(n) {
     if (n == 1) {
